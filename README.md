@@ -1,16 +1,20 @@
 "# react-vite-hooks-app" 
 
 ## Instlaciones test
-npm i -D jest babel-jest @babel/preset-env @babel/preset-react
-npm i -D @testing-library/react @types/jest jest-environment-jsdom
+#### npm i -D jest babel-jest @babel/preset-env @babel/preset-react
+#### npm i -D @testing-library/react @types/jest jest-environment-jsdom
 
 ### Si ocupas Fetch Api
-npm i -D whatwg-fetch
+#### npm i -D whatwg-fetch
 
 ## Actualizar los scripts del package.json
+````
+```
 "scripts: {
 ...
 "test": "jest --watchAll"
+```
+````
 
 ## Crear la configuración de babel babel.config.cjs
 module.exports = {
